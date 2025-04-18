@@ -1,0 +1,15 @@
+.my-custom-block {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+.my-custom-block h2 {
+    color: #333;
+    font-size: 24px;
+}
+.my-custom-block p {
+    color: #666;
+    font-size: 16px;
+}

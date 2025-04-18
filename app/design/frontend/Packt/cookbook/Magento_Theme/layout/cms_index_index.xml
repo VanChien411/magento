@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/my_custom_block.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="MyVendor\MyModule\Block\MyCustomBlock" name="my_custom_block" template="MyVendor_MyModule::my_custom_block.phtml" />
+        </referenceContainer>
+    </body>
+</page>
