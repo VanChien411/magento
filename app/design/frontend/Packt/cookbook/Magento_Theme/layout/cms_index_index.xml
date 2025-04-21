@@ -4,8 +4,8 @@
         <css src="css/my_custom_block.css"/>
     </head>
     <body>
-        <referenceContainer name="content">
+        <!-- <referenceContainer name="content">
             <block class="MyVendor\MyModule\Block\MyCustomBlock" name="my_custom_block" template="MyVendor_MyModule::my_custom_block.phtml" />
-        </referenceContainer>
+        </referenceContainer> -->
     </body>
 </page>
