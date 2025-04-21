@@ -41,6 +41,16 @@ module.exports = {
         ],
         dsl: 'less'
     },
+    cookbook: {
+        area: 'frontend',
+        name: 'Packt/cookbook',
+        locale: 'en_US',
+        files: [
+        'css/styles-m',
+        'css/styles-l'
+        ],
+        dsl: 'less'
+    },
     backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
