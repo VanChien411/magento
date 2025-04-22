@@ -3,6 +3,7 @@
     <module name="Packt_HelloWorld" setup_version="2.0.0">
         <sequence>
             <module name="Magento_Catalog"/>
+            <module name="Magento_Framework"/>
         </sequence>
     </module>
 </config>

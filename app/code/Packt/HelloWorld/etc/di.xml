@@ -12,5 +12,6 @@
             </argument>
         </arguments>
     </type>
-
+    <!-- override caledar fix error -->
+    <preference for="Magento\Framework\View\Element\Html\Calendar" type="Packt\HelloWorld\Block\Html\Calendar" />
 </config>
