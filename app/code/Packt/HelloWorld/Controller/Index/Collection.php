@@ -22,10 +22,10 @@ class Collection extends Action
             // )
             ->addAttributeToFilter('name', 'Áo thun');
 
+        // $productCollection->addAttributeToFilter('entity_id', ['in' => [159, 160, 161]]);
         // Gán giá trị cho tất cả các sản phẩm trong collection
-        $productCollection->setDataToAll('price', 20);
-
-
+        $productCollection->setDataToAll('price', 26660);
+        $productCollection->save(); 
         $output = '';
         foreach ($productCollection as $product) {
             $product->getResource()->saveAttribute($product, 'price');

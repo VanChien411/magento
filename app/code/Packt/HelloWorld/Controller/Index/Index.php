@@ -13,7 +13,7 @@ class Index extends Action
      * @var PageFactory
      */
     protected $resultPageFactory;
-
+    
     /**
      * Constructor
      *
