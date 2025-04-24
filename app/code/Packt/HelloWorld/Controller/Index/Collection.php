@@ -6,8 +6,7 @@ use Magento\Framework\App\Action\Action;
 use Magento\Framework\App\Response\Http;
 
 class Collection extends Action
-{
-    public function execute()
+{public function execute()
     {
         $productCollection = $this->_objectManager
             ->create('Magento\Catalog\Model\ResourceModel\Product\Collection')

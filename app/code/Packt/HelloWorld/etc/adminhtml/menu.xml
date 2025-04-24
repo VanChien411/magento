@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-
+instance" xsi:noNamespaceSchemaLocation=
+"urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- Menu trong Marketing -->
+        <add id="Packt_HelloWorld::marketing_helloworld" title="HelloWorld" module="Packt_HelloWorld" sortOrder="50" parent="Magento_Backend::marketing" resource="Packt_HelloWorld::helloworld" />
+
+        <add id="Packt_HelloWorld::marketing_index" title="Helloworld Index" module="Packt_HelloWorld" sortOrder="51" parent="Packt_HelloWorld::marketing_helloworld" action="helloworld/index/" resource="Packt_HelloWorld::index" />
+
+        <!-- Menu trong Content -->
+        <add id="Packt_HelloWorld::content_helloworld" title="HelloWorld" module="Packt_HelloWorld" sortOrder="50" parent="Magento_Backend::content" resource="Packt_HelloWorld::helloworld" />
+
+        <add id="Packt_HelloWorld::content_index" title="Helloworld Index" module="Packt_HelloWorld" sortOrder="51" parent="Packt_HelloWorld::content_helloworld" action="helloworld/index/" resource="Packt_HelloWorld::index" />
+
+        <add id="Packt_HelloWorld::subscription" title="Subscriptions" module="Packt_HelloWorld" sortOrder="70" parent="Packt_HelloWorld::marketing_helloworld" action="helloworld/subscription/" resource="Packt_HelloWorld::subscription" />
+
+        <add id="Packt_HelloWorld::component" title="Components" module="Packt_HelloWorld" sortOrder="80" parent="Packt_HelloWorld::marketing_helloworld" action="helloworld/component/" resource="Packt_HelloWorld::helloworld" />
+    </menu>
+
+</config>

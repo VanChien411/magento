@@ -23,6 +23,7 @@ class Subscription extends Action
         $subscription->setLastname('Doe');
         $subscription->setEmail('john.doe@example.com');
         $subscription->setMessage('A short message to test');
+        $subscription->setStatus(\Packt\HelloWorld\Model\Subscription::STATUS_DECLINED);
         $subscription->save();
 
         // Cách trả về thông báo kiểu Raw
